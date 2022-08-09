@@ -15,3 +15,4 @@ for (int i = 0; i < array.Length; i++)
 }
 Console.WriteLine($"Выводим массив на экран $ {String.Join(", ", array)}");
 Console.WriteLine($"Максимальное значение массива равно {max}; \nМинимальное значение массива равно {min}");
+Console.WriteLine($"Разница между максимальным и минимальным значениями равна {max - min}");
